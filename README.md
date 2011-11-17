@@ -4,6 +4,7 @@ Instructions
 Puppet Master
 -------------
 Get the code out to a machine to become a Puppet master, and run:
+
     # ./bootstrap.master.sh
 
 Puppet Node
