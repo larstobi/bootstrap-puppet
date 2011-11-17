@@ -1,0 +1,11 @@
+[main]
+    confdir = /etc/puppet
+    rundir = /var/run/puppet
+    logdir = /var/log/puppet
+    vardir = /var/lib/puppet
+    ssldir = $vardir/ssl
+    factpath=$vardir/lib/facts
+    syslogfacility = local7
+
+[agent]
+    server = <%= puppetmaster %>

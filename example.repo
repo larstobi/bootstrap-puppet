@@ -1,0 +1,15 @@
+[example]
+name=Example Yum Repository $releasever - $basearch
+baseurl=https://yum.example.net/yum/$releasever/$basearch
+#mirrorlist=https://yum.example.net/yum/$releasever/$basearch/mirrors.txt
+enabled=1
+gpgcheck=0
+sslverify=0
+
+[example-noarch]
+name=Example Yum Repository $releasever - noarch
+baseurl=https://yum.example.net/yum/$releasever/noarch
+#mirrorlist=https://yum.example.net/yum/$releasever/noarch/mirrors.txt
+enabled=1
+gpgcheck=0
+sslverify=0
